@@ -39,7 +39,6 @@ resize_list = [train_path, test_path]
 
 for p in range(len(resize_list)):
     for i, name in enumerate(classes):
-        print(i , name)
         images = glob(f'{resize_list[p]}/{name}/*.bmp')
 
         for image in images:
